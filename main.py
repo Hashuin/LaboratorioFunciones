@@ -6,7 +6,7 @@ def a_power_b(a,b):
     CPar= 0
     CImpar = 0
     while a!=0:
-
+        contP = 1
         for i in range(0,b,) :
            contP = contP * a
            if contP % 2 == 0 :
